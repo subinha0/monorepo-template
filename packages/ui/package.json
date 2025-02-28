@@ -9,7 +9,8 @@
   ],
   "exports": {
     "./styles.css": "./dist/index.css",
-    "./*": "./src/*.tsx"
+    "./*": "./src/*.tsx",
+    "./utils/cn": "./src/utils/cn.ts"
   },
   "license": "MIT",
   "scripts": {
@@ -27,8 +28,10 @@
     "@repo/typescript-config": "workspace:*",
     "@types/react": "^19.0.7",
     "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
     "eslint": "^9.21.0",
     "postcss": "^8.5.1",
+    "tailwind-merge": "^3.0.2",
     "tailwindcss": "^3.4.17",
     "typescript": "5.7.3"
   }
