@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* blue color scale */
+  --blue-10: #f2f8ff;
+  --blue-20: #c2e0ff;
+  --blue-30: #92c8ff;
+  --blue-40: #60aefe;
+  --blue-50: #3096fe;
+  --blue-60: #027ffe;
+  --blue-70: #636365;
+  --blue-80: #026cd8;
+  --blue-90: #014891;
+  --blue-100: #013972;
+
+  /* gray color palette */
+  --gray-10: #f5f6fa;
+  --gray-20: #ebebeb;
+  --gray-30: #c4c5c8;
+  --gray-40: #acadaf;
+  --gray-50: #949496;
+  --gray-60: #7b7c7e;
+  --gray-70: #636365;
+  --gray-80: #4b4b4c;
+  --gray-90: #323233;
+  --gray-100: #1a1a1a;
+
+  /* yellow color scale */
+  --yellow-10: #fef7e9;
+  --yellow-20: #fcebc9;
+  --yellow-30: #f9db9e;
+  --yellow-40: #f7ca71;
+  --yellow-50: #f4ba47;
+  --yellow-60: #f2ab1e;
+  --yellow-70: #ce911a;
+  --yellow-80: #ac7915;
+  --yellow-90: #8a6111;
+  --yellow-100: #6d4d0d;
+
+  /* green color scale */
+  --green-10: #e6f7f1;
+  --green-20: #c2ecde;
+  --green-30: #91ddc3;
+  --green-40: #5ecda7;
+  --green-50: #2ebe8d;
+  --green-60: #00b074;
+  --green-70: #009663;
+  --green-80: #007d52;
+  --green-90: #006442;
+  --green-100: #004f34;
+
+  /* red color scale */
+  --red-10: #fdebe9;
+  --red-20: #fac1bc;
+  --red-30: #f8a39b;
+  --red-40: #f47a6e;
+  --red-50: #f26051;
+  --red-60: #ef3826;
+  --red-70: #d93323;
+  --red-80: #aa281b;
+  --red-90: #831f15;
+  --red-100: #641810;
+
+  /* 기본 색상 및 시맨틱 컬러 변수 */
+  --primary-blue: #027ffe;
+  --primary-black: #1f1f1f;
+  --primary-white: #ffffff;
+
+  --success-green-10: var(--green-10);
+  --success-green-60: var(--green-60);
+
+  --warning-yellow-10: var(--yellow-10);
+  --warning-yellow-60: var(--yellow-60);
+
+  --info-blue-10: var(--blue-10);
+  --info-blue-50: var(--blue-50);
+
+  --error-red-10: var(--red-10);
+  --error-red-20: var(--red-20);
+  --error-red-60: var(--red-60);
+  --error-red-70: var(--red-70);
+  --error-red-80: var(--red-80);
+}
